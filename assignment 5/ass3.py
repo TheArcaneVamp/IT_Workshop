@@ -18,5 +18,5 @@ if (len(st)==4):
                 for k in st:
                     if k != i and k != j:
                         for l in st:
-                            if l != k and l !=j and l != k:
+                            if l != k and l !=j and l != i:
                                 print(i,j,k,l)
